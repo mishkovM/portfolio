@@ -436,8 +436,7 @@ section {
   padding: 30px 0;
   margin-top: 20px;
   position: relative;
-  margin-left: 150px;
-  margin-right: 150px;
+
 }
 
 .section-title h2 {
@@ -988,12 +987,13 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: 100%;
+  width: max-100%;
+  height: auto;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
-  position: relative;
+  position: absolute;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
