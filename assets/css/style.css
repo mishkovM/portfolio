@@ -987,7 +987,7 @@ section {
 }
 
 .portfolio-details .portfolio-details-slider img {
-  width: max-100%;
+  width: max-content;
   height: auto;
 }
 
