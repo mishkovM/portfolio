@@ -759,7 +759,7 @@ section {
 }
 
 .services .title {
-  font-weight: 700;
+  font-weight: 400;
   margin-bottom: 15px;
   font-size: 18px;
 }
@@ -771,8 +771,10 @@ section {
 
 .services .description {
   font-size: 15px;
+  font-weight: 100;
   line-height: 28px;
   margin-bottom: 0;
+  color: #636363;
 }
 
 /*
