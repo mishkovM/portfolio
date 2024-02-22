@@ -812,8 +812,9 @@ font-weight: 200;
   color: #444444;
 }
 
-
+/*
 .services .icon-box:hover {
+  animation: class="animate__animated animate__popup";
   border-color: #ffb727;
 }
 
