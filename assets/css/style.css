@@ -829,13 +829,14 @@ border: 1px solid #fff;
   text-align: center;
   color: #fff;
 }
-
+/*
 .testimonials .testimonial-item .testimonial-img {
   width: 100px;
   border-radius: 50%;
   border: 6px solid rgba(255, 255, 255, 0.15);
   margin: 0 auto;
 }
+*/
 
 .testimonials .testimonial-item h3 {
   font-size: 20px;
