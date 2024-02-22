@@ -348,10 +348,21 @@ h6 {
   padding: 0 15px;
 }
 
+/* This only changes this particular animation duration */
+.animate__animated.animate__bounce {
+  --animate-duration: 4s;
+}
+
+/* This changes all the animations globally */
+:root {
+  --animate-duration: 2000ms;
+  --animate-delay: 2.9s;
+}
+
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 80px;
-  font-weight: bold;
+  font-size: 96px;
+  font-weight: 400;
   font-family: "Raleway";
   color: #ffffff;
   position: relative;
@@ -792,7 +803,7 @@ font-weight: 200;
 }
 
 .services .title {
-  font-weight: 400;
+  font-weight: 200;
   margin-bottom: 15px;
   font-size: 18px;
 }
