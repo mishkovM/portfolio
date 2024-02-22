@@ -469,6 +469,7 @@ section {
   margin-bottom: 0;
   position: relative;
   z-index: 2;
+  
 }
 
 @media (max-width: 575px) {
@@ -557,8 +558,18 @@ section {
 .about .content ul {
   list-style: none;
   padding: 0;
+
+  
 }
 
+
+.about .description {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 28px;
+  margin-bottom: 0;
+  
+}
 .about .content ul li {
   margin-bottom: 20px;
   margin-top: 20px;
@@ -683,6 +694,11 @@ section {
   margin-top: -2px;
   border-left: 2px solid #82909c;
   position: relative;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 28px;
+  margin-bottom: 0;
+  
 }
 
 .resume .resume-item h4 {
@@ -705,14 +721,18 @@ section {
 
 .resume .resume-item ul {
   padding-left: 20px;
+ 
+ 
 }
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
+
 }
 
 .resume .resume-item:last-child {
   padding-bottom: 0;
+
 }
 
 .resume .resume-item::before {
